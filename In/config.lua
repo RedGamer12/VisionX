@@ -27,7 +27,7 @@ local config = {
         Gun = false,
         Sword = true,
         Delay = 0.1,
-        attack = { startupDelay = 0.1, loopInterval = 0.751, perTargetDelay = 0.0 }
+        attack = { startupDelay = 0.1, loopInterval = 0.8, perTargetDelay = 0.0 }
     },
     custom = {
         Melee = {
