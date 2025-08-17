@@ -2,7 +2,7 @@
 local config = {
     team = "Pirates", -- Pirates Marines
     servertohop = "Singapore",
-    timetoskip = 60,
+    timetoskip = 55,
     timetohop = 350,
     autouselowgraphic = true,
     autoQ = true,
@@ -18,7 +18,7 @@ local config = {
     },
     teleport = {
         helicopter = 150, --! >= 100
-        instant = 180,
+        instant = 190,
         speed = 295,
     },
     methodclicks = {
@@ -26,8 +26,13 @@ local config = {
         LowerHealthToM1 = 7000,
         Gun = false,
         Sword = true,
+<<<<<<< HEAD
         Delay = 0.1,
         attack = { startupDelay = 0.1, loopInterval = 0.8, perTargetDelay = 0.0 }
+=======
+        Delay = 0.58,
+        attack = { startupDelay = 0.1, loopInterval = 1, perTargetDelay = 0.0 }
+>>>>>>> 4b75e45 (Update)
     },
     custom = {
         Melee = {
