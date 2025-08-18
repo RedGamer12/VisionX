@@ -10,8 +10,8 @@ local config = {
     autoken = false,
     enablev4 = true,
     enablev3 = true,
-    blackscreen = true,
-    ignorefruits = {"Portal-Portal", "Buddha-Buddha", "Dragon-Dragon", "Kitsune-Kitsune", "Leopard-Leopard"},
+    blackscreen = false,
+    ignorefruits = {"Portal-Portal", --[["Buddha-Buddha", "Dragon-Dragon", "Kitsune-Kitsune", "Leopard-Leopard"]]},
     safezone = {
         HighestHealth = 75,
         LowestHealth = 55,
@@ -26,8 +26,8 @@ local config = {
         LowerHealthToM1 = 7000,
         Gun = false,
         Sword = true,
-        Delay = 0.1,
-        attack = { startupDelay = 0.1, loopInterval = 0.8, perTargetDelay = 0.0 }
+        Delay = 0.35,
+        attack = { startupDelay = 0.1, loopInterval = 1, perTargetDelay = 0.0 }
     },
     custom = {
         Melee = {
