@@ -1,33 +1,26 @@
-
 local config = {
-    team = "Pirates", -- Pirates Marines
+    team = "Pirates", --? Pirates Marines
     servertohop = "Singapore",
-    timetoskip = 55,
-    timetohop = 350,
+    timetoskip = 80,
+    timetohop = 600,
     autouselowgraphic = true,
-    autoQ = true,
+    autoQ = false,
     random = true, --! random = false if u want to use custom
-    autoken = false,
+    autoken = true,
     enablev4 = true,
     enablev3 = true,
-    blackscreen = true,
-    ignorefruits = {"Portal-Portal", --[["Buddha-Buddha", "Dragon-Dragon", "Kitsune-Kitsune", "Leopard-Leopard"]]},
+    blackscreen = false,
+    ignorefruits = {"Portal-Portal"--[[, "Buddha-Buddha", "Dragon-Dragon", "Kitsune-Kitsune", "Leopard-Leopard"]]},
     safezone = {
-        HighestHealth = 75,
-        LowestHealth = 55,
-    },
-    teleport = {
-        helicopter = 150, --! >= 100
-        instant = 190,
-        speed = 295,
+        HighestHealth = 65, -- % health
+        LowestHealth = 35, -- % health
     },
     methodclicks = {
+        LowerHealthToM1 = 2000,
+        Delay = 0.3,
         Melee = true,
-        LowerHealthToM1 = 7000,
-        Gun = false,
         Sword = true,
-        Delay = 0.35,
-        attack = { startupDelay = 0.1, loopInterval = 1, perTargetDelay = 0.0 }
+        Gun = false,
     },
     custom = {
         Melee = {
@@ -36,17 +29,17 @@ local config = {
                 Z = {
                     Enable = true,
                     Number = 3,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
                 X = {
                     Enable = true,
                     Number = 5,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
                 C = {
                     Enable = true,
                     Number = 4,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
             },
         },
@@ -56,42 +49,42 @@ local config = {
                 Z = {
                     Enable = true,
                     Number = 1,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
                 X = {
                     Enable = true,
                     Number = 2,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
             },
         },
         ['Blox Fruit'] = {
-            Enable = true,
+            Enable = false,
             Skills = {
                 Z = {
                     Enable = true,
                     Number = 4,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
                 X = {
                     Enable = true,
                     Number = 1,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
                 C = {
                     Enable = true,
                     Number = 4.5,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
                 V = {
                     Enable = true,
                     Number = 7,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
                 F = {
                     Enable = true,
                     Number = 8,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
             },
         },
@@ -101,18 +94,18 @@ local config = {
                 Z = {
                     Enable = true,
                     Number = 5,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
                 X = {
                     Enable = true,
                     Number = 1,
-                    HoldTime = 0.152,
+                    0.2222,
                 },
             },
         },
     },
     webhook = {
-        Enabled = false,
+        Enabled = true,
         Url = "",
     }
 }
